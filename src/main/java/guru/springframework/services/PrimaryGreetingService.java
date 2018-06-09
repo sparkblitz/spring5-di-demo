@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jt on 5/24/17.
+ * @author jguillen
  */
 @Service
 @Primary
