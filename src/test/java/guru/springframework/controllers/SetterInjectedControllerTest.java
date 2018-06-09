@@ -7,15 +7,15 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Created by jt on 5/24/17.
+ * @author jguillen
  */
-public class GetterInjectedControllerTest {
+public class SetterInjectedControllerTest {
 
-    private GetterInjectedController getterInjectedController;
+    private SetterInjectedController getterInjectedController;
 
     @Before
     public void setUp() throws Exception {
-        this.getterInjectedController = new GetterInjectedController();
+        this.getterInjectedController = new SetterInjectedController();
         this.getterInjectedController.setGreetingService(new GreetingServiceImpl());
     }
 
