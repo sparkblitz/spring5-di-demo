@@ -3,7 +3,7 @@ package guru.services;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by jt on 5/24/17.
+ * @author jguillen
  */
 @Component
 public class GreetingRepositoryImpl implements GreetingRepository {

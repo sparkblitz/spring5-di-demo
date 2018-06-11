@@ -1,7 +1,7 @@
 package guru.services;
 
 /**
- * Created by jt on 5/24/17.
+ * @author jguillen
  */
 public interface GreetingRepository {
 
