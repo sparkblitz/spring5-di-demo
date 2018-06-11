@@ -1,15 +1,8 @@
-package guru.services;
-
-import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
+package guru.springframework.services;
 
 /**
  * @author jguillen
  */
-@Service
-@Profile("es")
-@Primary
 public class PrimarySpanishGreetingService implements GreetingService {
 
     private GreetingRepository greetingRepository;
