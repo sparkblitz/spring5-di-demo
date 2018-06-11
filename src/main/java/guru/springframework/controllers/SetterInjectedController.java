@@ -9,7 +9,8 @@ import org.springframework.stereotype.Controller;
  * @author jguillen
  */
 @Controller
-public class GetterInjectedController {
+public class SetterInjectedController {
+
     private GreetingService greetingService;
 
     public String sayHello(){
