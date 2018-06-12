@@ -1,0 +1,39 @@
+# this is a comment
+username: sparkblitz
+
+# list
+usernames:
+  - username1
+  - username2
+  - username3
+
+# complex object
+book:
+  author: Joe Buck
+  publisher: Random House
+
+# boolean (yes/true, no/false)
+truth: yes
+
+another_truth: Yes
+
+more_truth: true
+
+
+# String value
+string_value: "This is a string. Put it in a quote."
+
+colon_string: "my courses: one two three"
+
+include_new_lines: | # pipe character - reads in everything including new lines
+  dsfsdfsd
+  fsdfdf fdsfgsdg
+  fsdgf fsdg gdg
+  fsdgsg
+  sgdfg
+
+ignore_new_lines: > # drops new lines
+  this is
+  just one long
+  string
+
